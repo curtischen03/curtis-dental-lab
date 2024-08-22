@@ -28,7 +28,7 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p style = {{color:'white'}}>
                 <MDBIcon color='secondary' icon='home'  />
-                3319 N San Gabriel Blvd, CA 91770, US
+                3319 N San Gabriel Blvd #D, CA 91770, US
               </p>
               <p style = {{color:'white'}}>
                 <MDBIcon color='secondary' icon='envelope'  />
