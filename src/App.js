@@ -33,7 +33,7 @@ function App() {
     <div className='App'>
       <Navbar bg='info' variant='dark' sticky='top' expand="lg" collapseOnSelect style={{ height: '64px' }}>
         <Navbar.Brand className='d-flex align-items-center'>
-          <img src='/imgs/dental/file.png' width='40px' height='40px' style={{ marginLeft: '10px', marginRight: '10px' }} alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/imgs/dental/file.png`} width='40px' height='40px' style={{ marginLeft: '10px', marginRight: '10px' }} alt="Logo" />
           <a href='#home' className='logo'>
             Curtis Dental
           </a>
@@ -56,15 +56,15 @@ function App() {
       <div className="second" id='productCSS'>
         
         <h3>Ceramic Services</h3>
-        <UnorderedList listItems={ceramic_services} pic={['/imgs/dental/12.jpg']} size={'277px'}/>
+        <UnorderedList listItems={ceramic_services} pic={[`${process.env.PUBLIC_URL}/imgs/dental/12.jpg`]} size={'277px'}/>
         <h3>Ceramic Extras</h3>
-        <UnorderedList listItems={ceramic_extras} pic={['/imgs/dental/21.jpg']} size={'490px'}/>
+        <UnorderedList listItems={ceramic_extras} pic={[`${process.env.PUBLIC_URL}/imgs/dental/21.jpg`]} size={'490px'}/>
         <h3>Gold Crowns</h3>
-        <UnorderedList listItems={gold_crowns} pic={['/imgs/dental/31.jpg','/imgs/dental/32.jpg']} size={'220px'}/>
+        <UnorderedList listItems={gold_crowns} pic={[`${process.env.PUBLIC_URL}/imgs/dental/31.jpg`,`${process.env.PUBLIC_URL}/imgs/dental/32.jpg`]} size={'220px'}/>
         <h3>Dentures (Upper or Lower)</h3>
-        <UnorderedList listItems={dentures} pic={['/imgs/dental/41.jpg']} size={'480px'}/>
+        <UnorderedList listItems={dentures} pic={[`${process.env.PUBLIC_URL}/imgs/dental/41.jpg`]} size={'480px'}/>
         <h3>Stay Plates</h3>
-        <UnorderedList listItems={stay_plates} pic={['/imgs/dental/54.jpeg']} size={'220px'}/>
+        <UnorderedList listItems={stay_plates} pic={[`${process.env.PUBLIC_URL}/imgs/dental/54.jpeg`]} size={'220px'}/>
       </div>
       <h1 className = 'header'>About Us</h1>
       <a className='anchor' id="about-us"></a>
@@ -72,7 +72,7 @@ function App() {
         <h3>Our Story</h3>
         <div className = 'product-container'>
           <p style ={{margin:'15px'}}>
-            <img src='/imgs/dental/62.jpg' className = 'rounded-image' style = {{padding:'30px'}}/>
+            <img src= {`${process.env.PUBLIC_URL}/imgs/dental/62.jpg`} className = 'rounded-image' style = {{padding:'30px'}}/>
             <b>Curtis Dental Laboratory Inc.</b> was founded in 2003 by <b>Sue and Steven Chen </b>  
              as a family-owned business. Steven, a dentist back in China, 
             and Sue brought their expertise to the U.S. to create high-quality

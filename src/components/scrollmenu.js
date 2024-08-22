@@ -51,31 +51,31 @@ export default Top;
 
 const cards = [
   {
-    url: "/imgs/dental/1.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/1.jpg`,
     id: 1,
   },
   {
-    url: "/imgs/dental/2.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/2.jpg`,
     id: 2,
   },
   {
-    url: "/imgs/dental/3.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/3.jpg`,
     id: 3,
   },
   {
-    url: "/imgs/dental/4.png",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/4.png`,
     id: 4,
   },
   {
-    url: "/imgs/dental/5.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/5.jpg`,
     id: 5,
   },
   {
-    url: "/imgs/dental/6.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/6.jpg`,
     id: 6,
   },
   {
-    url: "/imgs/dental/7.jpg",
+    url: `${process.env.PUBLIC_URL}/imgs/dental/7.jpg`,
     id: 7,
   },
 ];
