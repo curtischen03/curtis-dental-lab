@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/curtis-dental-lab/static/css/main.8429de33.css",
-    "main.js": "/curtis-dental-lab/static/js/main.df4299a2.js",
+    "main.js": "/curtis-dental-lab/static/js/main.2e98fdbe.js",
     "static/js/453.253be6ed.chunk.js": "/curtis-dental-lab/static/js/453.253be6ed.chunk.js",
     "index.html": "/curtis-dental-lab/index.html",
     "main.8429de33.css.map": "/curtis-dental-lab/static/css/main.8429de33.css.map",
-    "main.df4299a2.js.map": "/curtis-dental-lab/static/js/main.df4299a2.js.map",
+    "main.2e98fdbe.js.map": "/curtis-dental-lab/static/js/main.2e98fdbe.js.map",
     "453.253be6ed.chunk.js.map": "/curtis-dental-lab/static/js/453.253be6ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8429de33.css",
-    "static/js/main.df4299a2.js"
+    "static/js/main.2e98fdbe.js"
   ]
 }
