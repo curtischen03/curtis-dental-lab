@@ -1,9 +1,19 @@
+// src/PriceCatalog.js
 import React from 'react';
 
-
-function Pricing(){
-    return (
-        <h1>This is the pricing page</h1>
-    );
+function Pricing() {
+  return (
+    <div>
+      <h2>Price Catalog</h2>
+      {/* Add your catalog details here */}
+      <p>Price List:</p>
+      <ul>
+        <li>Item 1 - $100</li>
+        <li>Item 2 - $150</li>
+        <li>Item 3 - $200</li>
+      </ul>
+    </div>
+  );
 }
-export default Pricing;   
+
+export default Pricing;

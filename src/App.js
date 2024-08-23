@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home.js';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import PasswordPage from './passwordPage.js';
 
 function ScrollToSection() {
   const { hash } = useLocation();
@@ -28,12 +29,13 @@ function ScrollToSection() {
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className='App' style = {{backgroundColor: '#00008B'}}>
         <ScrollToSection/>
         <CustomNavbar/>
         <Routes>
           <Route path="/" element = {<Home/>}/>
-          <Route path='pricing' element={<Pricing/>}/>
+          <Route path='passwordPage' element={<PasswordPage/>}/>
+          <Route path='price-catalog' element={<Pricing/>}/>
         </Routes>
       </div>
     </Router>
