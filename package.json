@@ -1,7 +1,7 @@
 {
   "name": "curtisdental",
   "version": "0.1.0",
-  "homepage": "https://curtischen03.github.io/",
+  "homepage": "https://curtischen03.github.io/curtis-dental-lab", 
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
