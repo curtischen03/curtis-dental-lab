@@ -66,8 +66,8 @@ html{
 }
 
 .logo{
-  color:#002244;
-  font-weight:bold;
+  color:#002244 !important;
+  font-weight:bold !important;
 }
 
 .logo:link { 

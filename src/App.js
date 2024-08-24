@@ -27,14 +27,14 @@ function ScrollToSection() {
 
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/curtis-dental-lab' : '/';
   return (
-    <Router>
+    <Router basename = '/curtis-dental-lab'>
       <div className='App' style = {{backgroundColor: '#00008B'}}>
         <ScrollToSection/>
         <CustomNavbar/>
         <Routes>
-          <Route path="/curtis-dental-lab/" element = {<Home/>}/>
+          <Route path = "/" element = {<Home/>}/>
+          <Route index element = {<Home />}/>
           <Route path='passwordPage' element={<PasswordPage/>}/>
           <Route path='price-catalog' element={<Pricing/>}/>
         </Routes>
