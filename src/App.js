@@ -27,6 +27,7 @@ function ScrollToSection() {
 
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/curtis-dental-lab' : '/';
   return (
     <Router>
       <div className='App' style = {{backgroundColor: '#00008B'}}>
