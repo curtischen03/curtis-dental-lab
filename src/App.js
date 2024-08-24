@@ -34,7 +34,7 @@ function App() {
         <ScrollToSection/>
         <CustomNavbar/>
         <Routes>
-          <Route path="/" element = {<Home/>}/>
+          <Route path="/curtis-dental-lab/" element = {<Home/>}/>
           <Route path='passwordPage' element={<PasswordPage/>}/>
           <Route path='price-catalog' element={<Pricing/>}/>
         </Routes>
