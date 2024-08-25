@@ -28,11 +28,11 @@ function ScrollToSection() {
 
 function App() {
   return (
-    <Router basename = '/curtis-dental-lab'>
-      <div className='App' style = {{backgroundColor: '#00008B'}}>
+    <Router basename = '/curtis-dental-lab' >
+      <div className='App' >
         <ScrollToSection/>
         <CustomNavbar/>
-        <Routes>
+        <Routes >
           <Route path = "/" element = {<Home/>}/>
           <Route index element = {<Home />}/>
           <Route path='passwordPage' element={<PasswordPage/>}/>

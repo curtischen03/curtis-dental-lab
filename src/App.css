@@ -164,6 +164,16 @@ body {
   font-size:25px;
 }
 
+.price-header{
+  font-size:40px;
+  text-align:center;
+}
+
+.price-list{
+  font-size:27px;
+  text-align:left;
+}
+
 @media (max-width:1050px){
   .product-container p{
     font-size:20px;
@@ -187,6 +197,15 @@ body {
   .product-container img{
     height:auto !important;
   }
+
+  .price-header{
+    font-size:35px;
+  }
+  
+  .price-list{
+    font-size:22px;
+  }
+  
 }
 
 /* Responsive adjustments for mobile */
@@ -228,6 +247,14 @@ body {
   .product-container p{
     font-size:20px;
   }
+  .price-header{
+    font-size:30px;
+  }
+  
+  .price-list{
+    font-size:20px;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -235,6 +262,14 @@ body {
     padding: 12px;
     width:80vw;
   }  
+  .price-header{
+    font-size:20px;
+  }
+  
+  .price-list{
+    font-size:20px;
+  }
+  
 }
 
 
